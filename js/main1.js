@@ -24,9 +24,30 @@
 
 /***************SNACK NR.2****************/
 
+//inizializzo le variabili vuote che poi andro` a definire
+let listaNumeri = ['']
+let userNumber = ''
+let somma = parseInt(0)
 
 
+ for (let i = 1; i <= 10; i++){
 
-
+    //chiedo allo user di inserire un numero, il quale viene convertito in numero dal parseInt()
+    userNumber = parseInt(prompt('Inserisci un numero'))
     
+    
+    //aggiungo i vari numeri all`array
+    listaNumeri.push(userNumber)
+    
+
+    //sommo tutti i numeri
+    //somma = listaNumeri[1] + listaNumeri[2] + listaNumeri[3] + listaNumeri[4] + listaNumeri[4] + listaNumeri[6] + listaNumeri[7] + listaNumeri[8] + listaNumeri[9] + listaNumeri[10]
+    somma += listaNumeri[i]
+    
+
+}
+
+//stampo il totale
+alert(somma)
+
 
