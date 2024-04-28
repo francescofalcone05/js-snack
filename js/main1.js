@@ -53,7 +53,7 @@
 
 /***************SNACK NR.3****************/
 
-//chiedo le due parole tramite i prompt
+////chiedo le due parole tramite i prompt
 //let firstWord = prompt('inserisci qui la parola nr. 1')
 //let secondWord = prompt('inserisci qui la parola nr. 2')
 //let longest = ''
@@ -71,4 +71,14 @@
  ////stampo longest
 //alert(longest)
 
+/***************SNACK NR.4****************/
 
+
+//uso il ciclo for per stampare le potenze fino a 100
+//for (let i = 1; i < 101; i++){
+
+ //al numero fisso, aggiungo le potenze ad ogni giro
+ //let twoNumber = '2^' + i
+ //console.log(twoNumber)
+
+}
