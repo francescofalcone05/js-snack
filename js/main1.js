@@ -74,11 +74,16 @@
 /***************SNACK NR.4****************/
 
 
-//uso il ciclo for per stampare le potenze fino a 100
-//for (let i = 1; i < 101; i++){
+// //uso il ciclo for per stampare le potenze di 2 fino a 1000
+// let x = 1
+// let potenza = 1
 
- //al numero fisso, aggiungo le potenze ad ogni giro
- //let twoNumber = '2^' + i
- //console.log(twoNumber)
+// while (potenza < 1000){
 
-}
+// console.log(potenza)
+
+// potenza = Math.pow(2, x)
+
+// x += 1
+
+// }
